@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* div {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #1353de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 20px;
+  color: white;
+}
+
+.main {
+  background-color: #13de32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 20px;
+  color: white;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  margin: 20px;
+}
+
+.side1,
+.side2 {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  font-size: 20px;
+  color: white;
+}
+
+.side1 {
+  background-color: blueviolet;
+}
+
+.side2 {
+  background-color: darkorange;
+  width: 100%;
+}
+
+.footer {
+  background-color: #1353de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 20px;
+  color: white;
+} */ 
+
+.props1{
+  
+}

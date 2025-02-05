@@ -1,0 +1,49 @@
+JSX:
+**********
+JSX is a JavaScript and XML
+JSX is a JavaScript syntax which is used to write html like markup in the reactjs 
+JSX is a combination of JavaScript and XML
+JSX is not a part of reactjs
+
+actual way of creating a elemnt in react JSX
+    React.createElement(""type of tag,(properties:value)
+
+Components:
+**********
+Components are files which contains JavaScript related codes
+Components are divided into 2 types:
+    1. class based Components:
+        this is similar to JavaScript es6 class syntax
+        this Component is stateless Component untill v16.8
+        class App extends from React.Component{
+            render(){
+                return(
+                    <div></div>
+                )
+            }
+        }
+        export defult App
+    2. functional based Components
+        this is similar to JavaScript functions
+        function App(){
+            return(
+                //JSX
+            )
+        }
+    Component Composition:
+    **********************
+    multiple components are combined together to make oe single application
+    NOTE:   every component must be created with Capital Letter
+                ex: App.jsx/ App.jsx
+            teo components in one directory should not have same names 
+
+Props:
+****
+    Props is an object 
+    Props is nothing but properties 
+    Props is used to share the information/data from one component to the nanother 
+
+
+State:
+*******
+    State is an object which is used to store/ isolate the data inside the component
