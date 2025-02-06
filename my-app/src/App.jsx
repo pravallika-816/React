@@ -93,14 +93,58 @@
 
 //!CONTEXT API
 
-import React from "react";
-import Child1 from "./components/PropsExample/child1";
+// import React from "react";
+// import Child1 from "./components/PropsExample/child1";
+// const App = () => {
+//   return (
+//     <div>
+//       <Child1 />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+//! State
+// import React from 'react'
+// import CBCSStateEx from './components/StateExample/CBCSStateEx'
+
+// const App = () => {
+//   return (
+//     <div>
+//       App
+//       <hr/>
+//       <CBCSStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import StateEx from './components/StateExample/StateEx'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <StateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+import React from 'react'
+import FBCStateEx from './components/StateExample/FBCStateEx'
+
 const App = () => {
   return (
     <div>
-      <Child1 />
+      <FBCStateEx/>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

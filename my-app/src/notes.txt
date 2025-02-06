@@ -1,5 +1,5 @@
 JSX:
-**********
+****
 JSX is a JavaScript and XML
 JSX is a JavaScript syntax which is used to write html like markup in the reactjs 
 JSX is a combination of JavaScript and XML
@@ -38,12 +38,18 @@ Components are divided into 2 types:
             teo components in one directory should not have same names 
 
 Props:
-****
+******
     Props is an object 
     Props is nothing but properties 
-    Props is used to share the information/data from one component to the nanother 
+    Props is an immutable object
+    Props is used to share the information/data from one component to the another 
 
 
 State:
 *******
     State is an object which is used to store/ isolate the data inside the component
+    state is mutable object
+
+Class components:
+*****************
+to update state of the class component we have a method called this.setstate()
