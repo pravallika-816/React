@@ -53,3 +53,5 @@ State:
 Class components:
 *****************
 to update state of the class component we have a method called this.setstate()
+
+

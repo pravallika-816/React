@@ -135,14 +135,42 @@
 
 // export default App
 
+// import React from 'react'
+// import FBCStateEx from './components/StateExample/FBCStateEx'
 
+// const App = () => {
+//   return (
+//     <div>
+//       <FBCStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//! Inline Css
+//  import React from 'react'
+// import FunctionalComponent from './components/inline'
+ 
+//  const App = () => {
+//    return (
+//      <div>
+//       <FunctionalComponent city="Hyderabad"/>
+//      </div>
+//    )
+//  }
+ 
+//  export default App
+ 
+
+//! External CSS
 import React from 'react'
-import FBCStateEx from './components/StateExample/FBCStateEx'
+import EcternalCSS from './components/EcternalCSS'
 
 const App = () => {
   return (
     <div>
-      <FBCStateEx/>
+      <EcternalCSS/>
     </div>
   )
 }
