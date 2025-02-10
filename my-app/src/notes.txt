@@ -55,3 +55,24 @@ Class components:
 to update state of the class component we have a method called this.setstate()
 
 
+Controlled Elements or Components:
+**********************************
+    React controls its functionality 
+    Mainly used in form handling 
+
+Form Handling:
+**************
+<form method="" onSubmit>
+    <inpput type=text>
+    <button>
+</form>
+
+Basic hooks are:
+1. useState()
+2. useEffect()
+3. useContext()
+4. useRef()
+
+Note:
+this keyword wil tagert the current variable
+

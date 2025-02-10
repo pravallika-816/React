@@ -164,15 +164,41 @@
  
 
 //! External CSS
-import React from 'react'
-import EcternalCSS from './components/EcternalCSS'
+// import React from 'react'
+// import EcternalCSS from './components/EcternalCSS'
 
+// const App = () => {
+//   return (
+//     <div>
+//       <EcternalCSS/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//! Form
+// import React from 'react'
+// import { MyForm } from './components/MyForm'
+// const App = () => {
+//   return (
+//     <div>
+//       <MyForm/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//! useEffect
+import React from "react";
+import ExUseEffect from "./components/hooks/ExUseEffect";
 const App = () => {
   return (
     <div>
-      <EcternalCSS/>
+      <ExUseEffect />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
